@@ -154,6 +154,12 @@ if __name__ == "__main__":
 - Run the consumer script as a service if possible.
 - Proper error handling/logging.
 
+## 6. TLS Configuration
+ - Check the Config File
+---
+cat /etc/rabbitmq/rabbitmq.conf
+---
+
 ---
 
 If you want to run a different operation (e.g., `--del` instead of `--add`), you can adjust the message format and parsing logic.
